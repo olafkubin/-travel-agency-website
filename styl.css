@@ -1,0 +1,223 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100%;
+}
+    
+header{
+    height: 100px;
+    background-color: rgb(24, 24, 24);
+    color: #0e87f9;
+
+}
+
+#Left-Header{
+    height: 100px;
+    width: 40%;
+    float: left;
+}
+
+header p{
+    margin-top: 10px;
+}
+
+#Right-Header{
+    height: 100px;
+    width: 60%;
+    float: left;
+    font-size: 45px;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#Left-Main{
+    width: 20%;
+    background-color: #808080;
+    
+
+}
+
+#Right-Main{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    font-size: 20px;
+}
+ul, ul li{
+    text-align: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+    border: 2px solid rgb(24, 24, 24);
+    background-color: #0e87f9;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+hr{
+    border: 1px solid rgb(24, 24, 24);
+}
+
+#Left-Main p{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgb(24, 24, 24);
+    color: #0e87f9;
+    width: 100%;
+    float: left;
+    position: fixed;
+    height: 25px;
+    bottom: 0;
+    text-align: center;
+}
+
+#socialmedia a,#socialmedia{
+    padding: 7px;
+    text-align: center;
+}
+
+#Right-Main img{
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px;
+    width: 75%;
+}
+
+#Right-Main p{
+    font-size: 20px;
+}
+
+#myBtn1, #myBtn2, .opinie-button{
+    width: 37%;
+    color: rgb(24, 24, 24);
+    background-color: #0e87f9;
+    box-shadow: 5px 5px 10px;
+    opacity: 0.8;
+}
+
+#myBtn1:hover, #myBtn2:hover, .opinie-button:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+#zamowienia{
+    text-align: center;
+    margin-left: 20%;
+    width: 60%;
+    border: 2px solid rgb(24, 24, 24);
+    background-color: gray;
+}
+
+#opinie table{
+    width: 90%;
+    margin: 0 auto;
+    
+
+}
+
+#opinie table tr{
+    width: 100%;
+    border: 1px solid #0e87f9;
+
+}
+
+#opinie table tr td{
+    border: 1px solid #0e87f9;
+    padding: 10px;
+
+}
+
+#opinie{
+    overflow:scroll;
+    height: 60%;
+}
+#kontakt p{
+    border: 2px solid rgb(24, 24, 24);
+    padding: 10px;
+    width: 50%;
+}
+
+#kontakt-button{
+    margin: 10px;
+    box-shadow: 5px 5px 10px 5px;
+    background-color: #0e87f9;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+#kontakt-button:hover{
+    opacity: 1;
+}
+
+input, select{
+    margin: 10px;
+}
+
+input[type="text"], input[type="email"], select[name="ocena"], button[type="submit"], #kontakt input[type='submit'],#kontakt input[type='number'],#kontakt input[type='date']{
+    background-color: #61b3ff;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+#galeria img{
+    height: 300px;
+    width: auto;
+    float: left;
+    margin: 2%;
+    transition: 1s;
+}
+
+#galeria table{
+    width: 100%;
+    margin: 0 auto;
+}
+#galeria table tr td{
+    text-align: center;
+}
+#kontakt{
+    width: 100%;
+}
+
+#kontakt table{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(24, 24, 24);
+}
+
+#kontakt table tr td{
+    width: 200px;
+}
+
+#kontakt input[type='submit']{
+    width: 15%;
+}
+
+#kontakt img{
+    width: 50%;
+}
+
+#myBtn3, #myBtn4{
+    width: 20%;
+    color: rgb(24, 24, 24);
+    background-color: #0e87f9;
+    box-shadow: 5px 5px 10px;
+    opacity: 0.8;
+}
